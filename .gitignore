@@ -1,1 +1,54 @@
-laboratorios/laboratorio01/datos_imagenette
+# Este repositorio publica unicamente los cuadernillos de Jupyter.
+# Se ignora todo archivo por defecto, pero se permite recorrer directorios
+# para encontrar notebooks en cualquier laboratorio.
+*
+!*/
+!*.ipynb
+!/.gitignore
+!/.gitattributes
+
+# Directorios de datasets grandes (evita incluso recorrer su contenido).
+/buterfly/
+/insectos/
+/laboratorios/**/datos_*/
+/laboratorios/**/aclImdb/
+/**/.ipynb_checkpoints/
+
+# Datasets comprimidos y archivos de datos.
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# Modelos entrenados, tensores y serializaciones.
+*.pt
+*.pth
+*.keras
+*.h5
+*.hdf5
+*.onnx
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Imagenes y otros archivos binarios de datasets.
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
