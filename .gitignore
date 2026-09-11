@@ -10,7 +10,10 @@
 # Directorios de datasets grandes (evita incluso recorrer su contenido).
 /buterfly/
 /insectos/
-/laboratorios/**/datos_*/
+/laboratorios/laboratorio01/datos_food101/food-101/
+/laboratorios/lab01/datos_imagenette/
+/laboratorios/laboratorio01/datos_imagenette/
+/laboratorios/laboratorio02/datos_butterflies_austria/
 /laboratorios/**/aclImdb/
 /**/.ipynb_checkpoints/
 
